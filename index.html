@@ -6,36 +6,26 @@ body {
   min-height: 100vh;
   margin: 0;
   background-color: #f4f4f9;
-  overflow: hidden;
 }
 
 .verse-box {
-  width: 100vw;  /* Ορίζει το πλάτος του κουτιού στο 100% της οθόνης */
-  height: 100vh; /* Ορίζει το ύψος του κουτιού στο 100% της οθόνης */
+  width: 80%;
+  max-width: 600px;
   padding: 20px;
   border: 2px solid #333;
   border-radius: 10px;
   text-align: center;
-  background-color: #8b572a; /* Χρώμα φόντου του κουτιού */
+  background-color: #8b572a; /* Αλλάξαμε το χρώμα φόντου του κουτιού σε 8b572a */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .verse-box h1 {
-  font-size: 320px; /* Μεγαλώσαμε τη γραμματοσειρά 20 φορές */
-  margin-bottom: 20px;
-  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff; /* Λευκό χρώμα για τον τίτλο */
 }
 
 .verse-box p {
-  font-size: 480px; /* Μεγαλώσαμε τη γραμματοσειρά 20 φορές */
-  color: #ffffff;
-  display: inline-block; /* Διασφαλίζει ότι το περίγραμμα εφαρμόζεται γύρω από το κείμενο */
-  padding: 10px;
-  border: 4px solid #ffffff; /* Λευκό περίγραμμα γύρω από το εδάφιο */
-  border-radius: 10px; /* Στρογγυλεμένες γωνίες */
-  box-sizing: border-box; /* Διασφαλίζει ότι το padding και το border δεν επηρεάζουν το μέγεθος */
+  font-size: 18px;
+  color: #ffffff; /* Λευκό χρώμα για το κείμενο, για καλύτερη αντίθεση */
 }
