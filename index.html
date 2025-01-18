@@ -11,38 +11,32 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      margin: 100%;
+      margin: 0;
       background-color: #f4f4f9;
-      overflow: hidden;
     }
     .verse-box {
-      width: 80%;  /* Ορίζει το πλάτος του κουτιού στο 100% της οθόνης */
-      max-width: 600px; /* Ορίζει το ύψος του κουτιού στο 100% της οθόνης */
+      width: 80%;
+      max-width: 600px;
       padding: 20px;
-      border: 10px solid #333;
-      border-radius: 17px;
+      border: 2px solid #333;
+      border-radius: 10px;
       text-align: center;
-      background-color: #8b572a; /* Χρώμα φόντου του κουτιού */
+      background-color: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
     }
     .verse-box h1 {
-      font-size: 32px; /* Μεγαλώσαμε τη γραμματοσειρά 4 φορές από 32px σε 128px */
-      margin-bottom: 20px;
-      color: #ffffff;
+      font-size: 24px;
+      margin-bottom: 10px;
     }
     .verse-box p {
-      font-size: 27px; /* Μεγαλώσαμε τη γραμματοσειρά 4 φορές από 24px σε 96px */
-      color: #ffffff;
+      font-size: 18px;
+      color: #555;
     }
   </style>
 </head>
 <body>
   <div class="verse-box">
-    <h1>Το Εδάφιο της Ημέρας</h1>
+    <h1>Ο Στίχος της Ημέρας</h1>
     <p id="verse">Φόρτωση...</p>
   </div>
   <script src="script.js"></script>
